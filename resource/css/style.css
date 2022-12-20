@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+html {
+    color: #333;
+    
+    font-family: "Open Sans", sans-serif;
+}
+.row{
+    padding-left: -8px;
+    padding-right: -8px;
+    
+    
+}
+.col-produce{
+    width: 20%;
+}
+.col-form{
+    width: 30%;
+}
+
+body {
+    width: 100%;
+    height: 100%;}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+    background-color: bisque;
+    
+}
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background-color: bisque;
+    margin-left: 50px;
+    height: 80px;
+    
+}
+.list-nav{
+    display: flex;
+    margin-right: 50px;
+   
+}
+li{
+    list-style: none;
+    display: flex;
+    font-size: 17px;
+}
+.element-nav{
+    padding: 0 18px;
+    list-style: none;
+    line-height: 80px;
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.element-nav:hover{
+    color: aqua;
+}
+.content{
+    padding-top: 50px;
+    width: 1200px;
+    margin: auto;
+
+}
+.img-produce{
+    height: 250px;
+    width: 100%;
+   
+}
+.list-produce{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.layout{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.section-commnet,.section-rate,.section-email{
+    margin-top: 20px;
+}
+
+.produce{
+    text-align: center;
+}
+.section-form{
+    padding-left: 120px;
+}
+.validate{
+    color: crimson;
+}
+.button{
+    margin-top: 20px;
+    padding: 8px;
+    background-color: brown;
+}
+
+
+
+

@@ -8,6 +8,85 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="app">
+        <header class="header">
+           
+            <div class="logo">
+                <img src="/resource/img/mobiphone.jpg" class="logo" alt="">
+            </div>
+               
+               <div class="nav">
+                   <ul class="list-nav">
+                       <li><a href="" class="element-nav">Home</a></li>
+                       <li><a href="" class="element-nav">About</a></li>
+                       <li><a href="" class="element-nav">Store</a></li>
+                       <li><a href="" class="element-nav">Featured</a></li>
+                       <li><a href="" class="element-nav">Blog</a></li>
+                       <li><a href="" class="element-nav">Contact</a></li>
+                   </ul>
+               </div>
+           
+        </header>
+        <div class="content">
+            <div class="row layout ">
+                <div class="list-produce">
+                    <div class="produce col-produce">
+                        <img src="/resource/img/325815861.jpeg" alt=""class="img-produce">
+                        <p class="introduce">iphone 14</p>
+                    </div>
+                    <div class="produce col-produce">
+                        <img src="/resource/img/325815861.jpeg" alt=""class="img-produce">
+                        <p class="introduce">iphone 14</p>
+                    </div>
+                    <div class="produce col-produce">
+                        <img src="/resource/img/325815861.jpeg" alt=""class="img-produce">
+                        <p class="introduce">iphone 14</p>
+                    </div>
+                    <div class="produce col-produce">
+                        <img src="/resource/img/325815861.jpeg" alt=""class="img-produce">
+                        <p class="introduce">iphone 14</p>
+                    </div>
+
+                </div>
+                <div class="section-form col-form">
+
+                    <form action="" method="POST" class="" class="form-submit" id="form-1">
+                        <div class="section-email">
+
+                            <label for="email">email</label> <br>
+                            <input type="email" id="email" > <br> 
+                             <span class="form-message"></span>
+                        </div>
+                        <div class="section-commnet">
+
+                            <label for="comment">comment</label> <br>
+                            <input id="comment" type="text"> </input> <br>
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="section-rate">
+
+                            <label for="rate">rating</label> <br>
+                            <input type="text" id="rate"> <br>
+                            <span class="form-message"></span>
+                        </div>
+                        <button class="button">subbit</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+    <script>
+        validator({
+            form:'#form-1',
+            rules:[
+                validator.isEmail("#email"),
+                validator.isText("#comment"),
+                validator.isText("#rate"),
+            ]
+        })
+    </script>
     
 </body>
 </html>
